@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "2.0" --Put The Correct Key Here
+getgenv().Key = "Key" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
@@ -31,7 +31,7 @@ local Tab = Window:MakeTab({
 Tab:AddTextbox({
 	Name = "Key",
 	Default = "Key",
-	TextDisappear = false,
+	TextDisappear = True,
 	Callback = function(Value)
 		getgenv().KeyInput = Value
 	end	  
