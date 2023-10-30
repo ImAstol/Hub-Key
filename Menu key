@@ -180,7 +180,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Copy Key",
 	Callback = function()
-      		setclipboard("https://discord.gg/tvzGMxVk") --This Will Copy The Link Of The Key
+      		setclipboard("https://link-hub.net/1010539/link-para-pegar-a-key") --This Will Copy The Link Of The Key
   	end    
 }) 
     
